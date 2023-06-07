@@ -9,6 +9,8 @@ const routes: Routes = [
   { path: 'core', loadChildren: () => import('./core/core.module').then(m => m.CoreModule)},
 
   { path: 'test', loadChildren: () => import('./test/test.module').then(m => m.TestModule)},
+
+  { path: 'test', loadChildren: () => import('./test/test.module').then(m => m.TestModule)},
 ];
 
 @NgModule({

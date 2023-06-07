@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { TestRoutingModule } from './test-routing.module';
-import { BaseLineListFinalComponent } from './base-line-list-final/base-line-list-final.component';
+import { BaselineComponent } from './baseline/baseline.component';
 
 
 @NgModule({
   declarations: [
-    BaseLineListFinalComponent
+    BaselineComponent
   ],
   imports: [
     CommonModule,
